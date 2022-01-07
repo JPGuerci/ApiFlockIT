@@ -27,7 +27,7 @@ namespace WebApiNet.Services
             {
                 _log.LogInfo("Inicio Get ApiCoordenadas");
                 string url = _config.GetValue<string>("URLApiProvincias") + provincia;
-                _log.LogDebug($"URL={provincia}");
+                _log.LogDebug($"URL={url}");
                 var json = new WebClient().DownloadString(url);
                 dynamic m = JsonConvert.DeserializeObject(json);
 
