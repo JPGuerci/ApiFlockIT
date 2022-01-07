@@ -7,3 +7,4 @@ Api de evaluacion con dos EndPoints:
 	
 Documentacion de la API https://[URL]/swagger/index.html
 Ubicacion de Logs \ApiFlockIT\bin\Debug\net5.0\Logs
+Usuario Valido :Username="Test" PassWord="123"
